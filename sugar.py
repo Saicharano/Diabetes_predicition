@@ -48,6 +48,7 @@ input_data = [[
     Dpf,
     age
 ]]
+# lol
 input_data = scalar.transform(input_data)
 if st.button("predict"):
     prediction = model.predict(input_data)
